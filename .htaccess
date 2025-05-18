@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^dotare.ru
+RewriteRule (.*) http://www.dotare.ru/$1 [R=301,L]
